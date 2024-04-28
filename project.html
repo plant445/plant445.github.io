@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="sticky-header">
+        <h1>
+            <strong>
+                sean.
+            </strong>   
+        </h1>
+        <nav>
+            <a href="index.html">Home.</a>
+            <a href="about.html">About.</a>
+            <a href="project.html">Projects.</a>
+        </nav>
+    </header>
+
+    <main>
+        <nav>
+            <p><a href="#project-one">Project One.</a> | <a href="#project-two">Project Two.</a></p>
+        </nav>
+
+
+        <div id="project-one">
+            <img src="images/march2.png" alt="march madness logo" 
+                    srcset="images/march2.png 850w, 
+                        images/march2-600.png 600w"
+                    sizes="(max-width: 600px) 600px, (max-width: 850px) 850px"
+                    width="850" height="496">
+
+            <div id="project-text">
+                <h2>March Madness Bracket Predictior</h2>
+                <ul>
+                    <li>Developed a Support Vector Machine that implemented a pipeline to predict the outcomes of NCAA March Madness games.</li>
+                    <li>Web-scraped team statistics from previous seasons to train a model that achieved an 85.7% accuracy when tested on a dataset comprising 64 matchups.</li>
+                    <li>Final bracket produced by model placed in the 97th percentile.</li>
+                </ul>
+            </div> 
+        </div>
+
+        <div id="project-two">
+            <img src="images/food.jpg" alt="food" 
+                srcset="images/food.jpg 850w, 
+                     images/food-450.jpg 450w"
+                sizes="(max-width: 450px) 450px, (max-width: 850px) 850px"
+                width="850" height="567">
+            <div id="project-text2">
+                <h2>Food Recommendation System</h2>
+                <ul>
+                    <li>Implementing a neural network to offer users food recommendations based on their personal preferences.</li>
+                    <li>Work in Progress</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Sean Tang 2024</p>
+
+        <div id="contact-grid"> 
+            <p><a href="https://www.linkedin.com/in/sean-tang1/">Linkedin</a></p>
+            <p><a href="https://github.com/plant445">Github</a></p>
+            <p><a href="mailto:st4966@nyu.edu">Email</a></p>
+            <p><a href="408-332-6607">Phone</a></p>
+        </div>
+    </footer>
+</body>
+</html>
